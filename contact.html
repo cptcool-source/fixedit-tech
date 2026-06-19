@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — FixedIT Tech</title>
+<meta name="description" content="Get in touch with FixedIT Tech to talk about modernizing your medical office's phone and communication setup with Microsoft Teams.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="logo">fixed<span class="accent">IT</span>tech</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="contact.html" class="current">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>Let's talk about your offices' setup.</h1>
+    <p class="lede">Tell us a bit about your practice and we'll get back to you to schedule an assessment.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap contact-grid">
+
+    <form id="contact-form" class="reveal">
+      <div class="field-row">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="practice">Practice name</label>
+          <input type="text" id="practice" name="practice" required>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+      <div class="field">
+        <label for="locations">Number of office locations</label>
+        <select id="locations" name="locations">
+          <option>1</option>
+          <option>2–3</option>
+          <option>4–6</option>
+          <option>7+</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">What's prompting you to look into this?</label>
+        <textarea id="message" name="message" rows="4" placeholder="e.g. missed calls, staffing across locations, outdated phone system..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+      <p id="form-status" class="mono-label" style="margin-top: 14px;"></p>
+    </form>
+
+    <div class="contact-card reveal">
+      <span class="mono-label">Email</span>
+      <p class="contact-value"><a href="mailto:hello@fixedittech.com">hello@fixedittech.com</a></p>
+      <span class="mono-label">Phone</span>
+      <p class="contact-value"><a href="tel:+15550100199">(555) 010-0199</a></p>
+
+      <span class="mono-label" style="display:block; margin-top: 28px; margin-bottom: 12px;">What happens next</span>
+      <ul class="next-steps">
+        <li><span class="step-mark">01</span> We schedule a short call to learn about your offices</li>
+        <li><span class="step-mark">02</span> You get a written assessment of what setup would look like</li>
+        <li><span class="step-mark">03</span> If it's a fit, we agree on scope and a rollout timeline</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <a href="index.html" class="logo">fixed<span class="accent">IT</span>tech</a>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FixedIT Tech</span>
+      <span>Microsoft Teams infrastructure for medical offices</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
