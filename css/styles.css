@@ -3,7 +3,7 @@
    Palette: clinical & trustworthy. Signature: live presence/routing.
 =================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
   --ink-navy: #0F2A4A;
@@ -19,7 +19,7 @@
   --border-blue: #DCE7F4;
   --warn-amber: #B8762E;
 
-  --font-display: 'Fraunces', serif;
+  --font-display: 'Newsreader', serif;
   --font-body: 'IBM Plex Sans', -apple-system, sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 
